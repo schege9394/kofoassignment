@@ -1,0 +1,71 @@
+:root {
+    --clr-divs: #d7d7d7;
+    --clr-body: #f2f2f2;
+    --clr-containers: white;
+
+}
+body{
+    width:70vw;
+    min-height: 100vh;
+    background: var(--clr-body);
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    
+}
+.container-items{
+    width: 80%;
+    margin: 10px auto;
+    background: var(--clr-containers);
+    padding: 10px;
+    border: 1px solid black;
+
+}
+h5{
+    margin:0px;
+}
+.navigation{
+    display: flex;
+
+}
+.navigation > *{
+    flex-basis: 100%;
+    padding: 2px;
+    
+
+}
+.breeds{
+    display: flex;
+}
+.breeds > *{
+    flex-basis: 100%;
+    padding: 2px;
+    
+
+}
+.cats-general{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cats-general > *:nth-child(2){
+    flex: 1 1 40%;
+    padding: 2px;
+    
+
+}
+.cats-general > *:nth-child(3){
+    flex: 1 1 40%;
+    padding: 2px;
+    
+
+}
+.catsgen{
+    flex: 1 1 100%;
+    padding: 2px;
+}
+.container > div > div > div{
+    background: var(--clr-divs);
+    border: 1px solid black;
+    margin:10px;
+
+}
